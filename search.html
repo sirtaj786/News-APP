@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search results</title>
+    <style>
+       #navbar{
+        display: flex;
+        
+
+      }
+      #search_input{
+        height: 40px;
+        width: 300px;
+        font-size: 30px;
+        margin-left: 300px;
+        
+      }
+      #results{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.news{
+    display: flex;
+    gap: 10px;
+    border: 1px solid blue;
+}
+#results img{
+    height: 100%;
+    width: 130px;
+}
+    </style>
+  </head>
+  <body>
+    <!-- Same navbar with same functionality  -->
+    <div id="navbar">      
+    </div>
+    <div id="results"></div>
+
+    <!-- Append results inside div with id "results"  -->
+    <!-- <div id="results"></div> -->
+    <!-- News divs will have class "news"  -->
+  </body>
+</html>
+<script src="./scripts/search.js" type="module"></script>
